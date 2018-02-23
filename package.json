@@ -4,6 +4,7 @@
   "description": "\"A simple fake server\"",
   "main": "app.js",
   "scripts": {
+    "prestart": "npm install",
     "start": "node app",
     "test": "mocha"
   },
