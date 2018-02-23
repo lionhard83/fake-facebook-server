@@ -1,0 +1,21 @@
+{
+  "name": "server_facebook",
+  "version": "1.0.0",
+  "description": "\"A simple fake server\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "mocha"
+  },
+
+  "keywords": [
+    "\"Facebook\""
+  ],
+  "author": "Carlo Leonardi <carloleonardi83@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fake-facebook": "^1.0.3"
+  }
+}
